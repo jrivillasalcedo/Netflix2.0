@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import {
   registerWithEmailAndPassword,
   logInWithEmailAndPassword,
-} from "../firebase";
+} from "../../core/firebase";
 import "./SignupScreen.css";
 
 function SignupScreen() {

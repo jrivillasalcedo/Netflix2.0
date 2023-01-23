@@ -1,10 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectUser } from "../features/userSlice";
-import { auth } from "../firebase";
-import Nav from "../Nav";
+import { selectUser } from "../../features/userSlice";
+import { auth } from "../../core/firebase";
+import Nav from "../../components/nav/Nav";
 import "./ProfileScreen.css";
-import PlansScreen from "./PlansScreen";
+import PlansScreen from "../plans-screen/PlansScreen";
 
 function ProfileScreen() {
 
